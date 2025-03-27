@@ -1,11 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
 import CookieConsent from "react-cookie-consent";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function CookieBanner() {
-  const [mounted, setMounted] = useState<Boolean>(false);
+  const [mounted, setMounted] = useState<boolean>(false);
 
   useEffect(() => {
     setMounted(true);
