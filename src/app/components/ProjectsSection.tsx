@@ -338,7 +338,6 @@ export default function ProjectsSection() {
           </motion.div>
         </div>
       </motion.section>
-      ;
     </>
   );
 }

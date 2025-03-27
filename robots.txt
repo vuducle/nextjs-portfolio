@@ -1,0 +1,17 @@
+# public/robots.txt
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Disallow: /none-for-google/
+
+# Crawl-delay (requests per second)
+Crawl-delay: 2
+
+# Sitemap location
+Sitemap: https://le-vu-duc.com/sitemap.xml
