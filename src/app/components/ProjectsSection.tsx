@@ -133,7 +133,7 @@ export default function ProjectsSection() {
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2">Filter-App</h3>
               <p className="text-gray-300 mb-4">
-                An image filtering tool using JavaScript and the Canvas API..
+                An image filtering tool using JavaScript and the Canvas API.
               </p>
               <div className="flex">
                 <Link
@@ -207,6 +207,51 @@ export default function ProjectsSection() {
                 </span>
                 <span className="text-xs px-2 py-1 bg-emerald-900 text-emerald-300 rounded-full">
                   PostgreSQL
+                </span>
+                <span className="text-xs px-2 py-1 bg-emerald-900 text-emerald-300 rounded-full">
+                  TailwindCSS
+                </span>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            variants={item}
+            whileHover={{ y: -10 }}
+            className="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-emerald-500/20 transition-shadow"
+          >
+            <div className="relative h-48 w-full">
+              <Image
+                src="/images/woa-2.jpg"
+                alt="OnceVerse"
+                layout="fill"
+                objectFit="cover"
+                className="hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-bold mb-2">
+                World of Adventures (not World of Warcraft)
+              </h3>
+              <p className="text-gray-300 mb-4">
+                A fullstack app, created with my fellow students, Coded in
+                Django - © Taha Aktürk, Homam Mousa, Vu Duc Le
+              </p>
+              <div className="flex">
+                <Link
+                  href={"https://github.com/info2-giga/woa"}
+                  className="btn btn-accent mb-4"
+                  title="Vu Duc Le - OnceVerse"
+                >
+                  GitHub
+                </Link>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <span className="text-xs px-2 py-1 bg-emerald-900 text-emerald-300 rounded-full">
+                  Django
+                </span>
+                <span className="text-xs px-2 py-1 bg-emerald-900 text-emerald-300 rounded-full">
+                  SQLite
                 </span>
                 <span className="text-xs px-2 py-1 bg-emerald-900 text-emerald-300 rounded-full">
                   TailwindCSS
